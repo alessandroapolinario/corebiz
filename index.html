@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobeyond 2021 - Corebiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho Desktop -->
+    <header class="styles_header">
+        <div class="styles_headerContainer">
+            <a href="#">
+                <img src="assets/gobeyond_logo_white 1.png" alt="Logomarca gobeyond" id="logomarca">
+            </a>
+            <nav id="nav-bar">
+                <a href="#" class="nav-item">Home</a>
+                <div class="menu-dropdown">
+                    <a class="nav-item">Categoria1</button>
+                    <div class="menu-dropdown-content">
+                        <a href="#">Notebook</a>
+                        <a href="#">Impressoras</a>
+                        <a href="#">Monitores</a>
+                    </div>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="nav-item">Categoria2</button>
+                    <div class="menu-dropdown-content">
+                        <a href="#">Smartphone</a>
+                        <a href="#">Smartwatch</a>
+                        <a href="#">Acessórios</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item">Contato</a>
+            </nav>
+            <div id="search" width=15em>
+                <input type="search" placeholder="O que está procurando ?">
+                <img src="assets/lupa.png" alt="Lupa">
+            </div>
+            <a href="#">
+                <img src="assets/user 1.png" alt="Usuário">
+                Minha Conta
+            </a>
+            <a href="#">
+                <img src="assets/Minicart.png" alt="Carrinho de compras">
+            </a>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="slideshow">
+            <div class="sliders">
+                <img src="assets/Slider1.webp" alt="Primeiro slide">
+            </div>
+    
+            <div class="sliders">
+                <img src="assets/Slider2.webp" alt="Segundo slide">
+            </div>
+    
+            <div class="sliders">
+                <img src="assets/Slider3.webp" alt="Terceiro slide">
+            </div>
+    
+            <div class="sliders">
+                <img src="assets/Slider4.webp" alt="Quarto slide">
+            </div>
+    
+            <div id="buttons">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+    </section>
+
+   
+    <script src="js/script.js"></script>
+
+</body>
+</html>      
